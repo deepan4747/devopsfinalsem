@@ -1,0 +1,26 @@
+.register{
+    padding: 64px 50px;
+}
+.register-h2{
+    font-family: BorisBlackBloxx; 
+    color: #0c4e8e; 
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.login-3-row-login-email-label{
+    font-size: 16px;
+}
+.login-3-row-login-email{
+    margin-top: 20px;
+}
+.login-3-row-login-email-input{
+    max-width: 60%;
+}
+.register-2-button{
+    margin-top: 40px;
+}
+@media (max-width:630px){ 
+    .login-3-row-login-email-input{
+        max-width: 100%;
+    }
+}

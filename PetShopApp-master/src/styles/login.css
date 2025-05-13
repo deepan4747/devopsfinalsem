@@ -1,0 +1,233 @@
+h3,h5,label{font-family: BorisBlackBloxx; color: #0c4e8e; letter-spacing: 1px;}
+p,li{font-family:Nunito; color: #666;}
+.login-3-row{
+    display: flex;
+    flex-direction: row;
+}
+.login-3-row-earntpoints,
+.login-3-row-login,
+.login-3-row-register{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 20px;
+}
+
+
+.login-3-row-earntpoints{
+    width: 36%;
+    background-color: #F5f5f5;
+    align-items: center;
+}
+.login-3-row-earntpoints-h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.login-3-row-earntpoints-img{
+    width: 220px;
+    height: 220px;
+}
+.login-3-row-earntpoints-2-button{
+    padding: 30px 0px 20px 0px ;
+    display: flex;
+    flex-direction: row;
+}
+    .login-3-row-earntpoints-2-button-1{
+        padding: 0px 10px 0px 0px;
+        border-right: 1px solid black;
+        text-align: center;
+    }
+        .login-3-row-earntpoints-2-button-1-p{
+            color: #0c4e8e;
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        a.login-3-row-earntpoints-2-button-1-a{
+            height: 40px;
+            background-color: #083764;
+            transition: 0.3s;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 5px;
+            font-family: Nunito;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        a.login-3-row-earntpoints-2-button-1-a:hover{
+            background-color:#0c4e8e;
+        }
+
+    .login-3-row-earntpoints-2-button-2{
+        padding: 0px 0px 0px 25px;
+        align-items: center;
+        text-align: center;
+    }
+        a.login-3-row-earntpoints-2-button-2-a{
+            height: 40px;
+            background-color: #083764;
+            transition: 0.3s;
+            color: white;
+            padding: 10px 12px;
+            border-radius: 5px;
+            font-family: Nunito;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .login-3-row-earntpoints-p{
+            margin: 24px 45px 14px 45px;
+            text-align: center;
+        }
+        .login-3-row-login-password-a{
+            color: #55bbe5;
+            font-family: Nunito;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 3px;
+        }
+    
+    .login-3-row-login-signin{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+        .login-3-row-login-signin-p{
+            margin: 10px 10px;
+            font-size: 14px;
+        }
+        .login-3-row-login-signin-a{
+            margin: 10px 0px;
+            color: #55bbe5;
+            font-family: Nunito;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+
+
+
+.login-3-row-login-register{
+    width: 64%;
+    display: flex;
+    flex-direction: row;
+}
+.login-3-row-login{
+    padding: 48px 70px;
+}
+        .login-3-row-login-h5{
+            font-size: 18px;
+            margin-bottom: 15px;
+
+        }
+
+        .login-3-row-login-email{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .login-3-row-login-email-label{
+            color: #666;
+            font-size: 13px;
+        }
+        .login-3-row-login-email-input{
+            height: 40px;
+            border: 1px solid #cfcfcf;
+            border-radius: 3px;
+            padding: 0px 10px;
+            font-family: Nunito;
+            color: #666;
+        }
+        .login-3-row-login-password{
+            display: flex;
+            flex-direction: column;
+        }
+
+.login-3-row-register{
+     margin: 48px 0px;
+     padding: 0px 40px;
+     border-left: 1px solid black;
+     height: 60%;
+}
+    .login-3-row-register-li{
+        margin: 0px 0px 7px 20px ;
+        font-size: 16px;
+    }
+    ul{
+        margin-bottom: 30px;
+    }
+
+
+@media (max-width:1150px){
+    .login-3-row-login-register{
+        flex-direction: column;
+    }
+    .login-3-row-register{
+        padding: 0px 70px;
+        border-left: 0px solid black;
+    }
+    .login-3-row-earntpoints-2-button{
+        flex-direction: column;
+    }
+    .login-3-row-earntpoints-2-button-1{
+        border-right: 0px solid black;
+    }
+    .login-3-row-earntpoints-2-button-2{
+        padding: 20px 10px 0px 0px;
+    }
+}
+
+@media (max-width:1000px){
+    .login-3-row{
+        flex-direction: column;
+    }
+    .login-3-row-earntpoints{
+        width: 100%;
+    }
+    .login-3-row-login-register{
+        width: 100%;
+        flex-direction: row;
+    }
+    .login-3-row-register{
+        padding: 0px 40px;
+        border-left: 1px solid black;
+    }
+    .login-3-row-earntpoints-2-button{
+        flex-direction: row;
+    }
+    .login-3-row-earntpoints-2-button-1{
+        border-right: 1px solid black;
+    }
+    .login-3-row-earntpoints-2-button-2{
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+@media (max-width:680px){
+    .login-3-row{
+        flex-direction: column;
+    }
+    .login-3-row-earntpoints{
+        width: 100%;
+    }
+    .login-3-row-login-register{
+        flex-direction: column;
+    }
+    .login-3-row-register{
+        padding: 0px 70px;
+        border-left: 0px solid black;
+    }
+    .login-3-row-earntpoints-2-button{
+        flex-direction: column;
+    }
+    .login-3-row-earntpoints-2-button-1{
+        border-right: 0px solid black;
+    }
+    .login-3-row-earntpoints-2-button-2{
+        padding: 20px 10px 0px 0px;
+    }
+}
+
+p.white-text{
+    color: white;
+}

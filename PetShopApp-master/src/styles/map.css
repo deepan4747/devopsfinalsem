@@ -1,0 +1,48 @@
+.map-container{
+    margin: 40px 30px;
+}
+.map-container-table{
+    border: 1px solid black;
+    padding: 25px 20px;
+}
+.map-container-table-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.map-container-google{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+}
+.map-container-scroll{
+    width: 30%;
+    border: 1px solid black;
+    overflow-y: scroll;
+    padding: 20px 20px;
+}
+.map-container-google-map{
+    width: 67%;
+    border: 1px solid black;
+}
+.map-container-scroll-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.pbottomap{
+    margin-bottom: 20px;
+    font-family: Nunito; 
+    color: #666;
+}
+
+
+.footer-1-button.css{
+    width: 35%; margin-top: 20px;
+}
+.login-3-row-login-email.css{
+    width: 60%;
+}
