@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: deepan47/finaltask
+        image: deepan47/devopsfinalsem
         imagePullPolicy: Always
         ports:
         - containerPort: 80
